@@ -14,7 +14,7 @@ import numpy as np
 array1 = np.array(range(30))
 array1.reshape((5,6),order = "F")
 
-#2.解法一：呈上題的array，找出被6除餘1的數的索引
+#2.解法一：呈上題的array，找出被6除餘1的數的索引（回傳的是值，不是索引）
 for num in array1.flat:
     if num % 6 == 1:
         print(num)
