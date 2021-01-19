@@ -20,4 +20,4 @@ for num in array1.flat:
         print(num)
         
 #2.解法二：呈上題的array，找出被6除餘1的數的索引
-np.where(array1 % 6 == 1)
+np.argwhere(array1 % 6 == 1)
