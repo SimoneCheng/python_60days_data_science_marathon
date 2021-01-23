@@ -26,3 +26,4 @@ print("有", len(list1), "個學生英文成績比數學成績高")
 #2.是否全班同學最高分都是國文?
 b = np.greater(chinese_score,english_score)
 c = np.greater(chinese_score,math_score)
+np.logical_and(b,c)
