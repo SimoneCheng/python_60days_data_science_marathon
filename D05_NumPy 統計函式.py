@@ -23,10 +23,17 @@ np.nanmean(english_score)
 np.nanmean(math_score)
 np.nanmean(chinese_score)
 #各科最大值
-
+np.nanmax(english_score)
+np.nanmax(math_score)
+np.nanmax(chinese_score)
 #各科最小值
-
+np.nanmin(english_score)
+np.nanmin(math_score)
+np.nanmin(chinese_score)
 #各科標準差
+np.nanstd(english_score)
+np.nanstd(math_score)
+np.nanstd(chinese_score)
 
 #2. 第五位同學補考數學後成績為55，請計算補考後數學成績平均、最大值、最小值、標準差?
 
