@@ -36,5 +36,10 @@ np.nanstd(math_score)
 np.nanstd(chinese_score)
 
 #2. 第五位同學補考數學後成績為55，請計算補考後數學成績平均、最大值、最小值、標準差?
+math_score[4] = 55
+np.mean(math_score)
+np.maximum(math_score)
+np.minimum(math_score)
+np.std(math_score)
 
 #3. 用補考後資料找出與國文成績相關係數最高的學科?
