@@ -18,7 +18,15 @@ math_score = np.array([60,85,60,68,np.nan,60])
 chinese_score = np.array([65,90,82,72,66,77])
 
 #1. 請計算各科成績平均、最大值、最小值、標準差，其中數學缺一筆資料可忽略?
+#各科平均
+np.nanmean(english_score)
+np.nanmean(math_score)
+np.nanmean(chinese_score)
+#各科最大值
 
+#各科最小值
+
+#各科標準差
 
 #2. 第五位同學補考數學後成績為55，請計算補考後數學成績平均、最大值、最小值、標準差?
 
