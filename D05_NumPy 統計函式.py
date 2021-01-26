@@ -43,3 +43,11 @@ np.nanmin(math_score)
 np.std(math_score)
 
 #3. 用補考後資料找出與國文成績相關係數最高的學科?
+corr_chi_math = np.corrcoef(chinese_score,math_score)
+corr_chi_eng = np.corrcoef(chinese_score,english_score)
+if corr_chi_math[0,1] > corr_chi_eng[0,1]:
+    print("與國文成績相關係數最高的學科是數學")
+elif corr_chi_math[0,1] == corr_chi_eng[0,1]:
+    print("國文與數學的相關係數等於國文與英文的相關係數")
+else:
+    print("與國文成績相關係數最高的學科是英文")
