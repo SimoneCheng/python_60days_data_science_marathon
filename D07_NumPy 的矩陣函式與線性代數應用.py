@@ -15,12 +15,12 @@ array1 = np.array([[10, 8], [3, 5]])
 array1_inverse = np.linalg.inv(array1)
 print(array1_inverse)
 #原矩陣乘上反矩陣
-print(array1 @ array1_inverse,"是單位矩陣")
+print(array1_inverse @ array1,"是單位矩陣")
 
 #2. 運用上列array計算特徵值、特徵向量?
 a = np.linalg.eig(array1)
 print(a)
 
 #3. 運用上列array計算SVD?
-c = np.linalg.matrix_rank(array1)
+c = np.linalg.svd(array1)
 print(c)
