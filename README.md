@@ -1,1 +1,3 @@
 # python_60days_data_science_marathon
+
+這是一個python資料科學實作的自我挑戰，從基本的NumPy到學習使用Pandas，最後做出一個完整的資料分析作品。
