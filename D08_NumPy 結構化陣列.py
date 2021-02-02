@@ -22,7 +22,15 @@ c['f4'] = myopia_list
 print(c)
 
 #2. 呈上題，將array中體重(weight)數據集取出算出全部平均體重
+weight_mean = np.mean(c['f2'])
+print(weight_mean)
 
 #3. 呈上題，進一步算出男生(sex欄位是boy)平均體重
+weight_boy = c[c['f1']=='boy']['f2']
+weight_boy_mean = np.mean(weight_boy)
+print(weight_boy_mean)
 
 #4. 呈上題，進一步算出女生(sex欄位是girl)平均體重
+weight_girl = c[c['f1']=='girl']['f2']
+weight_girl_mean = np.mean(weight_girl)
+print(weight_girl_mean)
